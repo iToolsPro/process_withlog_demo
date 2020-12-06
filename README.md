@@ -1,6 +1,8 @@
 ## process_withlog_demo
 A demo of [https://github.com/iToolsPro/progressbar](https://github.com/iToolsPro/progressbar).
 
+> tested on go1.15.
+
 ## usage
 1. clone this repo.
 2. go run run.go
@@ -15,3 +17,10 @@ output eg:
 2020-12-06 16:39:47 sample log ---> 4                                                         
 logWriter demo   5% [==>                                                         ] 
 ```
+
+## notice
+add 
+```
+replace github.com/schollz/progressbar/v3 v3.7.2 => github.com/iToolsPro/progressbar/v3 v3.7.6
+```
+in go.mod
