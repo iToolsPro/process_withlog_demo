@@ -3,7 +3,6 @@ module mygolog
 go 1.15
 
 require (
-	github.com/imfht/progressbar v1.0.0 // indirect
 	github.com/schollz/progressbar/v3 v3.7.2
 )
 
